@@ -1,0 +1,40 @@
+#container{
+    width:600px;
+    background-color:gainsboro;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#results{
+    height:75px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: right;
+    bottom: 100%;
+    line-height: 120px;
+}
+
+#buttonDiv{
+    display:flex
+}
+
+.button{
+    flex:1;text-align: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.equals{
+    background-color: darkblue;
+    color: white;
+}
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
